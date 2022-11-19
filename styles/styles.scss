@@ -83,7 +83,8 @@ header{
 .main{
     &__img{
         height: 30rem;
-        background-image: url("//assets/images/image-web-3-mobile.jpg");
+        width: 100%;
+        background-image: url('../assets/images/image-web-3-mobile.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         display: block;
