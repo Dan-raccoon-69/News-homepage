@@ -49,7 +49,6 @@ header{
 
     &__menu{
         display: none;
-        transition: all 2s;
         width: 70%;
         height: 100%;
         position: fixed;
@@ -144,6 +143,7 @@ header{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     gap: 2rem;
+    margin-bottom: 3rem;
     &__item{
         display: grid;
         grid-template-columns: 0.7fr 1fr;
@@ -161,11 +161,17 @@ header{
         &__text{
             display: flex;
             flex-direction: column;
-            gap: 0.5rem;
+            gap: 0.7rem;
+            overflow: hidden;
+            & p:nth-child(1){
+                font-size: 2.5em;
+            }
+            & p:nth-child(3){
+                font-size: 1.5em;
+            }
+            & p:nth-child(1), p:nth-child(3){
+                color: var(--Dark_grayishBlue);
+            }
         }
-        
-        // &__text:last-child{
-        //     gap: 0;
-        // }
     }
 }

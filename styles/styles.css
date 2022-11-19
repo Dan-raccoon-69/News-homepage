@@ -47,7 +47,6 @@ header {
 }
 .nav__menu {
   display: none;
-  transition: all 2s;
   width: 70%;
   height: 100%;
   position: fixed;
@@ -138,6 +137,7 @@ header {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
   gap: 2rem;
+  margin-bottom: 3rem;
 }
 .cards__item {
   display: grid;
@@ -157,5 +157,15 @@ header {
 .cards__item__text {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.7rem;
+  overflow: hidden;
+}
+.cards__item__text p:nth-child(1) {
+  font-size: 2.5em;
+}
+.cards__item__text p:nth-child(3) {
+  font-size: 1.5em;
+}
+.cards__item__text p:nth-child(1), .cards__item__text p:nth-child(3) {
+  color: var(--Dark_grayishBlue);
 }/*# sourceMappingURL=styles.css.map */
