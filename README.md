@@ -6,4 +6,4 @@ Usando HTML y CSS (SASS).
 ---
 Puedes ver el sitio en vivo [aqui](https://dan-raccoon-69.github.io/News-homepage/).
 ---
-![Captura del sitio terminado](Captura%20del%20sitio%20terminado.png)
+![Captura del sitio terminado](assets/Captura%20del%20sitio%20terminado.png)
